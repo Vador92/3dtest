@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://co3u5q4jf57gy"]
+
+[node name="tutorial" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.810747, 0.585396, 0, -0.585396, 0.810747, 0, 5.50344, 3.76572)
+light_color = Color(0.733333, 0.4, 0.333333, 1)
+
+[node name="Floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.383903)
+size = Vector3(20, 0.1, 20)

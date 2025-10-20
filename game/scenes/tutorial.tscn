@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6250mxstvgb5"]
+
+[ext_resource type="PackedScene" uid="uid://deg1nxws16oiu" path="res://scenes/player.tscn" id="1_os0uf"]
+
+[node name="tutorial" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_os0uf")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.658414, 0.752656, 0, -0.752656, 0.658414, -0.373241, 5.84096, 2.18098)
+light_color = Color(0.866667, 0.933333, 0.133333, 1)
